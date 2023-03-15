@@ -1,5 +1,6 @@
+import './styles/normalize.css';
 import './styles/main.css';
-import Header from './Header';
+import Banner from './components /Banner/banner';
 
 const root = document.getElementById('root');
-root.append(Header);
+root.append(Banner);
