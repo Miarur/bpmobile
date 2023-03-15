@@ -1,5 +1,5 @@
 import './styles/main.css';
-import Header from "./Header";
+import Header from './Header';
 
 const root = document.getElementById('root');
 root.append(Header);
