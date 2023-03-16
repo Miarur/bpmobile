@@ -1,0 +1,13 @@
+.button__big {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 17px;
+  color: #FFFFFF;
+  min-width: 280px;
+  min-height: 54px;
+  background: linear-gradient(270deg, #1987FF 0%, #19CCFF 100%);
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}

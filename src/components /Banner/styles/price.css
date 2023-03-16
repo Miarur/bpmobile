@@ -1,0 +1,134 @@
+.price__block {
+  padding-top: 55px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-width: 297px;
+}
+
+.price__item.price__item_active {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 131px;
+  background: url('../../../assets/shape-1.svg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  background: rgba(73, 87, 149, 0.197154);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #495795;
+  border-radius: 21px;
+  transform: scale(1.1);
+}
+
+.price__item:nth-of-type(2) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 131px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 21px;
+  background: rgba(73, 87, 149, 0.1);
+  background: url('../../../assets/shape-2.svg') no-repeat;
+  background-position: 60% 30%;
+  background-size: cover;
+  border: none;
+  opacity: 0.5;
+}
+
+.sale {
+  position: absolute;
+  right: 0;
+  padding: 9px 3px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 12px;
+  background-color: #DB0000;
+  border-radius: 15px;
+}
+
+
+.price__text {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.price__cost {
+  display: flex;
+  flex-direction: column;
+  padding-top: 11px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.price__cost.price__cost_active {
+  padding-top: 20px;
+}
+
+.price__description {
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.price__description.price__description_active {
+  padding-top: 0;
+}
+
+
+.price-tittle__block {
+  position: relative;
+  margin-top: 20px;
+  background-color: #495795;
+}
+
+.price-tittle__block.price-tittle__block_active {
+  margin-top: 10px;
+}
+
+.price-tittle__block::before {
+  position: absolute;
+  top: 0;
+  left: -3px;
+  content: '';
+  width: 3px;
+  height: 100%;
+  background-color: #495795;
+}
+
+.price-tittle__block::after {
+  position: absolute;
+  top: 0;
+  right: -3px;
+  content: '';
+  width: 3px;
+  height: 100%;
+  background-color: #495795;
+}
+
+.price__tittle {
+  padding: 2px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.price__cost.price__cost_permonth {
+  padding-bottom: 13px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
