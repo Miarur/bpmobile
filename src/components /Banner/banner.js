@@ -1,4 +1,4 @@
-import './banner.css';
+import './styles/main.css';
 import Banner from './banner.html';
 import htmlToElement from '../../utils/htmlToElement';
 

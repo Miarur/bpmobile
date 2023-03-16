@@ -1,7 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'SFPro';
+  src: url('../fonts/SFPro.ttf') format('embedded-opentype'),
+  url('../fonts/SFPro.ttf') format('woff2'),
+  url('../fonts/SFPro.ttf') format('woff'),
+  url('../fonts/SFPro.ttf') format('truetype'),
+  url('../fonts/SFPro.ttf') format('svg');
+
+}
+
+:root {
+  --main-color: #FFFFFF;
+  --secondary-color: #1987FF;
+  --link-color: #BDC0D0;
+}
+
 #root {
   width: 100vw;
   height: 100vh;
-}
-body {
-
 }

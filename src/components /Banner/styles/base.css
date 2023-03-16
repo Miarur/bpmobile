@@ -1,0 +1,46 @@
+.wrapper {
+  padding: 0;
+  margin: 0 auto 0 auto;
+  max-width: 375px;
+  background: url('../../../assets/background-full/4.png');
+  color: var(--main-color);
+}
+
+.banner__block {
+  margin: 0 20px 0 20px;
+  max-width: 335px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'SFPro';
+}
+
+.banner-tittle {
+  margin: 0 auto 0 auto;
+  padding-top: 180px;
+  max-width: 286px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 1px;
+  color: var(--main-color);
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.price__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.banner-footer__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-footer__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
