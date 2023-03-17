@@ -1,0 +1,19 @@
+{
+  "Unlimited Access<br>to All Features": "Acceso ilimitado a todas las funciones",
+  "Unlimited documents": "Documentos ilimitados",
+  "Count mode": "Modo de recuento",
+  "Text recognition (OCR)": "Reconocimiento de texto (OCR)",
+  "Monthly": "Mensual",
+  "<strong>{{price}}</strong><br>per month": "{{price}}<span class='price__description'>por mes</span>",
+  "3 DAYS FREE": "3 DÍAS GRATIS",
+  "{{price}}/month": "{{price}}/mes",
+  "Annually": "Anual",
+  "-83%": "-83%",
+  "<strong>{{price}}</strong><br>per year": "{{price}}<span class='price__description'>por año</span>",
+  "MOST POPULAR": "LO MÁS PEDIDO",
+  "Continue": "Continuar",
+  "Auto-renewable. Cancel anytime.": "Renovable automáticamente. Cancela cuando quieras.",
+  "Terms of Use": "Términos de uso",
+  "Restore": "Restablecer",
+  "Privacy Policy": "Política de privacidad"  
+}

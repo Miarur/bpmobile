@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: 'SFPro';
+  src: url('../fonts/SFPro.ttf') format('embedded-opentype'),
+  url('../fonts/SFPro.ttf') format('woff2'),
+  url('../fonts/SFPro.ttf') format('woff'),
+  url('../fonts/SFPro.ttf') format('truetype'),
+  url('../fonts/SFPro.ttf') format('svg');
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #FFFFFF;
+  --link-color: #BDC0D0;
+  --sale-color: #DB0000;
+  --blue-color: #495795;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}

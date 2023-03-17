@@ -1,0 +1,50 @@
+.banner-header {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.banner__link.banner__link_restore {
+  font-family: 'SFPro';
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--link-color);
+  text-align: right;
+  letter-spacing: 0.4px;
+}
+
+.banner-close__button {
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  opacity: 1;
+}
+
+.banner-close__button:before,
+.banner-close__button:after {
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  content: ' ';
+  height: 20.55px;
+  width: 2px;
+  background-color: var(--link-color);
+}
+
+.banner-close__button:before {
+  transform: rotate(45deg);
+}
+
+.banner-close__button:after {
+  transform: rotate(-45deg);
+}
+
+
+@media only screen and (min-width: 390px) {
+  .banner__link.banner__link_restore  {
+    font-size: 15px;
+  }
+}

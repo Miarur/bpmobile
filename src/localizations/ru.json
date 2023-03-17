@@ -1,0 +1,19 @@
+{
+  "Unlimited Access<br>to All Features": "Неограниченный доступ ко всем функциям",
+  "Unlimited documents": "Любое количество документов",
+  "Count mode": "Режим «Подсчет»",
+  "Text recognition (OCR)": "Распознавание текста (OCR)",
+  "Monthly": "1 месяц",
+  "<strong>{{price}}</strong><br>per month": "{{price}}<span class='price__description'>в месяц</span>",
+  "3 DAYS FREE": "3 ДНЯ БЕСПЛАТНО",
+  "{{price}}/month": "{{price}}/месяц",
+  "Annually": "1 ГОД",
+  "-83%": "-83%",
+  "<strong>{{price}}</strong><br>per year": "{{price}}<span class='price__description'>в год</span>",
+  "MOST POPULAR": "ПОПУЛЯРНОЕ",
+  "Continue": "Продолжить",
+  "Auto-renewable. Cancel anytime.": "Автопродление. Отмена в любое время.",
+  "Terms of Use": "Условия использования",
+  "Restore": "Восстановить",
+  "Privacy Policy": "Конфиденциальность"
+}
