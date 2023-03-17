@@ -3,7 +3,8 @@
   margin: 0 auto 0 auto;
   max-width: 375px;
   min-height: 100%;
-  background: url('../../../assets/background-full/4.png') no-repeat;
+  background: url('../../../assets/background-full/4@2x.png') no-repeat;
+  background-size: contain;
   color: var(--main-color);
 }
 
@@ -33,4 +34,24 @@
   letter-spacing: 1px;
   color: var(--main-color);
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (min-width: 390px) {
+  .wrapper {
+    max-width: 390px;
+    background: url('../../../assets/background-full/4@2x.png') no-repeat;
+    background-size: contain;
+  }
+
+  .banner__block {
+    max-width: 104%;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .wrapper {
+    max-width: 414px;
+    background: url('../../../assets/background-full/4.png') no-repeat;
+    background-size: cover;
+  }
 }

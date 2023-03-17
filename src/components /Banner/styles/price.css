@@ -62,7 +62,7 @@
   font-size: 10px;
   font-weight: bold;
   line-height: 12px;
-  background-color: #DB0000;
+  background-color: var(--sale-color);
   border-radius: 15px;
 }
 
@@ -104,7 +104,7 @@
 .price-tittle__block {
   position: relative;
   margin-top: 20px;
-  background-color: #495795;
+  background-color: var(--blue-color);
 }
 
 .price-tittle__block.price-tittle__block_active {
@@ -118,7 +118,7 @@
   content: '';
   width: 3px;
   height: 100%;
-  background-color: #495795;
+  background-color: var(--blue-color);
 }
 
 .price-tittle__block::after {
@@ -128,7 +128,7 @@
   content: '';
   width: 3px;
   height: 100%;
-  background-color: #495795;
+  background-color: var(--blue-color);
 }
 
 .price__tittle {
@@ -145,4 +145,11 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
+}
+
+
+@media only screen and (min-width: 390px) {
+  .price__block {
+    min-width: 308px;
+  }
 }

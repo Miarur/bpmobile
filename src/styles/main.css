@@ -15,14 +15,11 @@
   padding: 0;
 }
 
-body {
-  background-color: black;
-}
-
 :root {
   --main-color: #FFFFFF;
-  --secondary-color: #1987FF;
   --link-color: #BDC0D0;
+  --sale-color: #DB0000;
+  --blue-color: #495795;
 }
 
 #root {

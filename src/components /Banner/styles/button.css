@@ -3,11 +3,18 @@
   font-size: 17px;
   font-weight: bold;
   line-height: 17px;
-  color: #FFFFFF;
+  color: var(--main-color);
   min-width: 280px;
   min-height: 54px;
   background: linear-gradient(270deg, #1987FF 0%, #19CCFF 100%);
   border-radius: 30px;
   border: none;
   cursor: pointer;
+}
+
+
+@media only screen and (min-width: 390px) {
+  .button__big {
+    margin-top: 40px;
+  } 
 }

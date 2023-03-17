@@ -41,11 +41,29 @@
 
 
 .list__text {
-  
   text-align: left;
   font-size: 17px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.9px;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.69);
+}
+
+@media only screen and (min-width: 390px) {
+  .list__text  {
+    font-size: 20px;
+  }
+
+  .list__item:before { 
+    transform: scale(1.04);
+    top: 8px;
+  }
+
+  .list__item:nth-of-type(2):before {
+    top: 6px;
+  }
+
+  .list__item:nth-of-type(3):before {
+    top: 5px;
+  }
 }

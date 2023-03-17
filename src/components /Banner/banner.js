@@ -15,7 +15,7 @@ import langZh from '../../localizations/zh.json';
 
 i18next.init({
   lng: 'en',
-  debug: true,
+  debug: false,
   fallbackNS: 'common',
   resources: {
     en: {

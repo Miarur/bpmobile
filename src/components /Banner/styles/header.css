@@ -41,3 +41,10 @@
 .banner-close__button:after {
   transform: rotate(-45deg);
 }
+
+
+@media only screen and (min-width: 390px) {
+  .banner__link.banner__link_restore  {
+    font-size: 15px;
+  }
+}
