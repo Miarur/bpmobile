@@ -5,7 +5,7 @@
   justify-content: space-between;
 }
 
-.banner-header__link {
+.banner__link.banner__link_restore {
   font-family: 'SFPro';
   font-size: 13px;
   line-height: 24px;

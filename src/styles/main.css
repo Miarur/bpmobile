@@ -15,6 +15,10 @@
   padding: 0;
 }
 
+body {
+  background-color: black;
+}
+
 :root {
   --main-color: #FFFFFF;
   --secondary-color: #1987FF;
