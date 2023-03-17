@@ -1,5 +1,8 @@
 # How to use
 
+#### deploy 
+https://bpmobile.vercel.app/
+
 #### download the repo
 ```https://github.com/Miarur/bpmobile.git```
 
